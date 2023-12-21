@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #A4DADA;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: #028E9B;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.form-container {
+  width: 40%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  background-image: linear-gradient(to right, pink, #A4DADA);
+}
+
+form textarea {
+  resize: none;
+}
+
+.cards-container {
+  width: 100%;
+  display: grid;
+  margin: 0 auto;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 310px));
+  position: relative;
+  justify-content: space-between;
+  max-width: 50%;
+}
+
+.card {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  
+}
+
+.card:hover{
+  transform: translateY(-5px);
+  transition-duration: 550ms;
+  -o-transition-duration: 550ms;
+}
+
+.img__poster{
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.img-poster__image{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card__databox {
+  display: grid;
+  grid-gap: 10px;
+  width: 100%;
+  padding: 0px 30px 20px 30px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.card-databox__heading {
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-databox__description {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 1.3;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #F137A6 inset, 0 0 0 0 #F137A6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  transition: .15s ease-in-out;
+  max-width: fit-content;
+  border: none;
+}
+
+button:hover {
+  box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+  color: #F137A6;
+}
