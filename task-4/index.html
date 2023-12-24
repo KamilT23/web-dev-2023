@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="assets/woman_ribbon_clothing_fashion_bow_icon_258671.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Цветочки</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <p>Таджитдинов Камиль 6407</p>
+        </div>
+        <div class="header-right">
+            <button onclick="resetPage()">Сбросить</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Форма карточки товара</h2>
+            <form id="productForm">
+                <label for="name">Название:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="description">Описание:</label>
+                <textarea id="description" name="description" required></textarea>
+
+                <label for="image">Ссылка на изображение:</label>
+                <input type="url" id="image" name="image" required>
+
+                <label for="code">Код товара:</label>
+                <input type="text" id="code" name="code" required>
+
+                <label for="supplier">Поставщик:</label>
+                <input type="text" id="supplier" name="supplier" required>
+
+                <button type="button" onclick="saveProduct()">Сохранить</button>
+            </form>
+        </div>
+
+        <div class="cards-container" id="cardsContainer">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
