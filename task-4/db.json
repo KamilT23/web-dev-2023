@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": 1704527856642.488,
+      "name": "Хризантема",
+      "description": "Хорошенькая, добренькая хризантема",
+      "image": "https://www.remontbp.com/wp-content/uploads/2015/09/1911.jpg",
+      "code": 548,
+      "supplier": "ООО ЦветСтрой"
+    },
+    {
+      "id": 1704527856642.5706,
+      "name": "Роза",
+      "description": "Интересный букет из роз",
+      "image": "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRGT3pSqLzQtZLsnxqK7-FoVOgz_6EMbrCvZ8mXS5NDxu9CBylElWcmtbd5irSAVJq4",
+      "code": 287,
+      "supplier": "ЗАО ЦветНеСтрой"
+    }
+  ],
+  "creatorInfo": {
+    "name": "Камиль Таджитдинов",
+    "group": "6407",
+    "repo": "https://github.com/KamilT23/web-dev-2023"
+  }
+}
