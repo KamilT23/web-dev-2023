@@ -11,9 +11,10 @@
     <title>Цветочки</title>
 </head>
 <body>
+    <div id="loader" class="loader"></div>
     <header>
         <div class="header-left">
-            <p>Таджитдинов Камиль 6407</p>
+            <p id="creatorInfo"></p>
         </div>
         <div class="header-right">
             <button onclick="resetPage()">Сбросить</button>
@@ -39,7 +40,7 @@
                 <label for="supplier">Поставщик:</label>
                 <input type="text" id="supplier" name="supplier" required>
 
-                <button type="button" onclick="saveProduct()">Сохранить</button>
+                <button id="saveBut" type="button" onclick="saveProduct()">Сохранить</button>
             </form>
         </div>
 
